@@ -1,5 +1,7 @@
 # local-gpt-image
 
+中文说明: [README.zh-CN.md](README.zh-CN.md)
+
 `local-gpt-image` is a Codex/OpenClaw skill for saving built-in `image_gen`
 outputs as normal local files.
 
