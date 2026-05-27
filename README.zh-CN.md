@@ -1,6 +1,6 @@
 # local-gpt-image 中文说明
 
-`local-gpt-image` 是一个 Codex / OpenClaw 技能，用来把内置 `image_gen` 生成出来的图片，稳定保存成本机目录里的普通图片文件。
+`local-gpt-image`技能是用来把 Codex 内置 `image_gen` 生成出来的图片，稳定保存成本机目录里的普通图片文件。
 
 它不是一个新的生图模型，也不是一个独立的生图 API 封装。它解决的是另一个更具体的问题：图片已经由 Codex 的内置 `image_gen` 生成出来了，如何把这些图片可靠地复制到你指定的文件夹里。
 
@@ -27,7 +27,6 @@
 - Python 3.10 或更高版本
 - Codex / OpenClaw 环境
 - 当前环境支持内置 `image_gen`
-- OpenClaw workspace 中存在共享提取脚本 `scripts/imagegen_cache_extractor.py`
 - 能访问 Codex 图片缓存目录，默认是 `~/.codex/generated_images`
 
 默认目录结构建议如下：
@@ -136,4 +135,4 @@ python3 scripts/local_gpt_image_job.py finish \
 `image_gen` 负责生成图片。  
 `local-gpt-image` 负责把生成结果从本地缓存中提取出来，保存到你指定的目录。
 
-它是一个图片落盘助手，不是生图模型本身。
+
