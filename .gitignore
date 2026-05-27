@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local job artifacts
+*.log
+*.tmp
+result.json
+before.json
+state.json
+
+# Generated outputs
+outputs/
+generated/
+dist/
+
+# macOS
+.DS_Store
